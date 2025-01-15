@@ -6,7 +6,18 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 16:37:42 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/15 16:37:43 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/01/15 17:01:21 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
+#include <string>
+
+class HumanA{
+	
+public:
+	
+
+private:
+
+};
