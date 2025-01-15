@@ -1,6 +1,6 @@
-NAME		= zombie
+NAME		= horde
 CC			= c++
-CFLAGS		= -Wall -Werror -Wextra -std=c++98
+CFLAGS		= -g3 -Wall -Werror -Wextra -std=c++98
 RM			= rm -f
 
 SRC_PATH	= ./srcs/

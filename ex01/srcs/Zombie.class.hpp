@@ -1,0 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Zombie.class.hpp                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/01/15 10:47:57 by bsunda            #+#    #+#             */
+/*   Updated: 2025/01/15 12:01:30 by bsunda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <string> 
+#include <iostream>
+
+class	Zombie{
+
+public:
+	Zombie(void);
+	Zombie(std::string zombie_name);
+	~Zombie(void);
+
+	void announce(void);
+	
+private:
+	std::string name;
+};
+
+Zombie* zombieHorde( int N, std::string name);
