@@ -6,7 +6,7 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 10:25:26 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 15:56:32 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 19:53:31 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@
 class FileHandler {
 
 public:
-	int	position;
-
 	FileHandler(void);
 	~FileHandler(void);
 	

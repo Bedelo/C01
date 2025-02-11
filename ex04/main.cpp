@@ -6,7 +6,7 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 10:46:11 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 16:08:09 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 19:57:09 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,10 @@ int	main(int ac, char **av)
 	}
 	
 	while (std::getline(inputFile, line)) {
-		std::string line_replace;
+		std::string replacedLine;
 		FileHandler fh; 
-		line_replace = fh.replace_string(line, std::string(av[2]), std::string(av[3]));
-		outputFile << line_replace << std::endl;
+		replacedLine = fh.replace_string(line, std::string(av[2]), std::string(av[3]));
+		outputFile << replacedLine << std::endl;
 	}
 
 	inputFile.close();
