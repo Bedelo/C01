@@ -6,7 +6,7 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 10:47:57 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 12:22:08 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 17:08:09 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 	void announce(void);
 	
 private:
-	std::string name;
+	std::string _name;
 };
 
 Zombie* zombieHorde( int N, std::string name);
