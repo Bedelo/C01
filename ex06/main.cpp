@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 12:21:59 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/20 18:21:01 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 15:35:19 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.class.hpp"
+#include "Harl.hpp"
 
 int main(int ac, char **av){
 	(void)	ac;

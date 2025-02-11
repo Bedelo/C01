@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 12:26:14 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/08 18:24:37 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 15:33:01 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.class.hpp"
+#include "Harl.hpp"
 
 Harl::Harl(void){
 	tab[0] = (s_level_message){1, "DEBUG", &Harl::debug}; 
@@ -47,25 +47,6 @@ void Harl::complain(std::string level){
 			std::cout << "[ Probably complaining about insignificant problems ] " << std::endl;
 	}
 }
-
-// void Harl::complain(std::string level){
-// 	int i = 0;
-// 	int j = 0;
-
-// 	while(i < 4){
-// 		if (tab[i].level == level){
-// 			j = i;
-// 			while (j < 4){
-// 				(this->*tab[j].f)();
-// 				std::cout << std::endl;
-// 				j++;
-// 			}
-// 			return ;
-// 		}		
-// 		i++;
-// 	}
-// 	std::cout << "[ Probably complaining about insignificant problems ] " << std::endl;
-// }
 
 void Harl::debug( void ){
 	std::cout << "[DEBUG] love having extra bacon for my 7XL-double-cheese-triple-pickle-special-\
