@@ -1,28 +1,26 @@
-NAME		= horde
-CC			= c++
-CFLAGS		= -g3 -Wall -Werror -Wextra -std=c++98
-RM			= rm -f
+NAME	= horde
+CC		= c++
+CFLAGS	= -Wall -Werror -Wextra -std=c++98
+RM		= rm -f
 
-SRC_PATH	= ./srcs/
-OBJ_PATH	= ./objs/
+SRCS	=	./Zombie.cpp \
+			./newZombie.cpp \
+			./randomChump.cpp \
+			./zombieHorde.cpp \
+			./main.cpp
 
-SRCS		= $(wildcard $(SRC_PATH)*.cpp)
-OBJS		= $(addprefix $(OBJ_PATH),$(notdir $(SRCS:.cpp=.o)))
+OBJS	= $(SRCS:.cpp=.o)
 
 all	: $(NAME)
 
 $(NAME)	: $(OBJS)
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
 
-$(OBJ_PATH)%.o : $(SRC_PATH)%.cpp
-	@mkdir -p $(OBJ_PATH)
+%.o : %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
-
 clean :
-	$(RM) $(OBJ_PATH)*.o
-	$(RM) -r $(OBJ_PATH)
-	
+	$(RM) *.o
 
 fclean : clean
 	$(RM) $(NAME)

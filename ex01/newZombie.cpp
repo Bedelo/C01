@@ -1,26 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   newZombie.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/15 12:11:02 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/15 14:20:35 by bsunda           ###   ########.fr       */
+/*   Created: 2025/01/15 10:51:06 by bsunda            #+#    #+#             */
+/*   Updated: 2025/02/11 12:18:55 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.class.hpp"
+#include "Zombie.hpp"
+#include <string>
 
-int	main(void){
-	int nb = 0;
-	int size = 5;
-
-	Zombie* horde = zombieHorde(size, "my_name_");
-	while (nb < size){
-		horde[nb].announce();
-		nb++;
-	}
-	delete[] horde;
-	return (0);
+Zombie* newZombie(std::string name){
+	Zombie* new_zombie = new Zombie(name);
+	return (new_zombie);
 }
+

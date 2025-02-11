@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 12:00:43 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/15 14:10:05 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 12:21:18 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.class.hpp"
+#include "Zombie.hpp"
 #include <iostream>
 #include <string>
 #include <sstream> 

@@ -1,30 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.class.hpp                                   :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/15 10:47:57 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/15 11:42:56 by bsunda           ###   ########.fr       */
+/*   Created: 2025/01/15 10:48:21 by bsunda            #+#    #+#             */
+/*   Updated: 2025/02/11 12:19:37 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string> 
-#include <iostream>
+#include "Zombie.hpp"
 
-class	Zombie{
-
-public:
-	Zombie(void);
-	Zombie(std::string zombie_name);
-	~Zombie(void);
-
-	void announce(void);
-	
-private:
-	std::string name;
-};
-
-Zombie*	newZombie(std::string name);
-void	randomChump( std::string name);
+int	main(void){
+	Zombie *zombie = newZombie("instance_of_Zombie");
+	zombie->announce();
+	randomChump("simple_zombie");
+	delete zombie;
+	return (0);
+}
