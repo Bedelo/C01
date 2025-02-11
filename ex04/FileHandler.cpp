@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 11:25:21 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/18 12:13:12 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 15:56:56 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "FileHandler.class.hpp"
+#include "FileHandler.hpp"
 
 FileHandler::FileHandler(void){
 	return ;

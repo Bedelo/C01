@@ -6,7 +6,7 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 10:46:11 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/18 12:05:02 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 16:08:09 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <fstream>
 #include <string>
 #include <cstring> 
-#include "FileHandler.class.hpp"
+#include "FileHandler.hpp"
 
 int	main(int ac, char **av)
 {
@@ -23,6 +23,7 @@ int	main(int ac, char **av)
 
 	if (ac != 4){
 		std::cout << "Erreur: Program needs 3 parameters to run" << std::endl;
+		std::cout << "./replace <fileName> <s1> <s2>" << std::endl;
 		return (1);
 	}
 	
