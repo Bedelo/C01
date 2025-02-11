@@ -6,12 +6,12 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 12:26:18 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/20 16:49:08 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 15:43:04 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HARL_CASS_H
-#define HARL_CASS_H
+#ifndef HARL_H
+#define HARL_H
 
 #include <string>
 #include <cstring>
@@ -41,7 +41,5 @@ private:
 	void warning( void );
 	void error( void );
 };
-
-
 
 #endif

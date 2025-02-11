@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 12:26:14 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/20 17:02:59 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 15:43:24 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.class.hpp"
+#include "Harl.hpp"
 
 Harl::Harl(void){
 	tab[0] = (s_level_message){"DEBUG", &Harl::debug}; 
