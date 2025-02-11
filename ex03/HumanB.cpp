@@ -6,11 +6,11 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 16:37:46 by bsunda            #+#    #+#             */
-/*   Updated: 2025/01/18 10:11:31 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 16:17:55 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "HumanB.class.hpp"
+#include "HumanB.hpp"
 
 HumanB::HumanB(std::string nameB): _name(nameB){
 	this->_weapon = NULL;
