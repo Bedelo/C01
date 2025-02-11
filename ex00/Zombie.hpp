@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.class.hpp                                   :+:      :+:    :+:   */
+/*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 10:47:57 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 12:18:28 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/11 17:03:13 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 	void announce(void);
 	
 private:
-	std::string name;
+	std::string _name;
 };
 
 Zombie*	newZombie(std::string name);
