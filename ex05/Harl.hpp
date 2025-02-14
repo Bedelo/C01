@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Harl.class.hpp                                     :+:      :+:    :+:   */
+/*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 12:26:18 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 15:43:04 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/14 13:56:18 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,12 @@ struct s_level_message{
 	void (Harl::*f)(void);
 };
 
-
 class Harl {
 	
 public:
 	Harl(void);
 	~Harl(void);
 	void complain( std::string level);
-
 
 private:
 	s_level_message tab[4];
