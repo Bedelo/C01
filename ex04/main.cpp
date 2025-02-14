@@ -6,14 +6,13 @@
 /*   By: bsunda <bsunda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 10:46:11 by bsunda            #+#    #+#             */
-/*   Updated: 2025/02/11 19:57:09 by bsunda           ###   ########.fr       */
+/*   Updated: 2025/02/14 13:52:50 by bsunda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstring> 
 #include "FileHandler.hpp"
 
 int	main(int ac, char **av)
